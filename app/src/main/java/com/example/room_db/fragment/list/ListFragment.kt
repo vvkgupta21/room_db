@@ -10,9 +10,10 @@ import androidx.navigation.fragment.findNavController
 import com.example.room_db.R
 import com.example.room_db.viewmodel.UserViewModel
 import com.example.room_db.adapter.UserAdapter
+import com.example.room_db.baseFragment.BaseFragment
 import com.example.room_db.databinding.FragmentListBinding
 
-class ListFragment : Fragment() {
+class ListFragment : BaseFragment() {
 
     private lateinit var binding: FragmentListBinding
     private lateinit var mUserViewModel: UserViewModel

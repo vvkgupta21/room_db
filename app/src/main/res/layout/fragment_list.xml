@@ -12,11 +12,12 @@
         android:layout_height="match_parent"
         tools:context=".fragment.list.ListFragment">
 
-
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            tools:listitem="@layout/user_item"
+            android:padding="10dp"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
